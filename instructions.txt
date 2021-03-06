@@ -1,0 +1,5 @@
+run with: 
+npm start
+
+build and deploy with: 
+npm run deploy

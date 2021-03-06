@@ -1,0 +1,43 @@
+#Contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-weight: 500;
+
+	.card-container {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		margin-top: 68px;
+		margin-bottom: 0;
+		position: absolute;
+		font-weight: 400;
+	}
+
+	a {
+		font-size: 24px;
+		letter-spacing: 1px;
+		margin-bottom: 5px;
+		background: linear-gradient(to left, #dd822e, #be639a);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-decoration: none;
+	}
+
+	@media (max-width: $max-mobile-width) {
+		width: 90% !important;
+
+		.business-card {
+			width: 100%;
+
+			max-width: 445px;
+		}
+	}
+}
