@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@400;500&display=swap");
+
+$max-mobile-width: 960px;
+
+@import "./App.scss";
+
+html {
+	font-family: "Montserrat", "Verdana", Tahoma, Sans-Serif;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--caption-font: "Open Sans", Verdana, Tahoma, Sans-Serif;
+	--long-text-font: "Open Sans", Verdana, Tahoma, Sans-Serif;
+
+	background-color: #f3f3f3;
+
+	--nav-bar-height: 56px;
+	--default-padding: 50px;
+	--medium-padding: 75px;
+
+	--placeholder-color: #e6e6e6;
+
+	--primary-accent: #fbcf5d;
+
+	--text-color-darkest: #323232;
+	--text-color-grey: grey;
+
+	// todo: set to auto when mediaquery is less than app max width
+	overflow-x: hidden;
+
+	color: var(--text-color-darkest);
+}
+
+.d-flex,
+.display-flex {
+	display: flex;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
