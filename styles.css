@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#card {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 445px;
+    height: 255px;
+    box-shadow: -2px 6px 10px 2px #93939345;
+}
+
+
+a {
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color:#303030;
+    font-family: sans-serif;
+}
